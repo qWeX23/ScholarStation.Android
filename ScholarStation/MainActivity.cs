@@ -13,14 +13,6 @@ namespace ScholarStation
 		{
 			base.OnCreate (savedInstanceState);
 
-
-			//
-			//afdsdfsdfwefwefw
-			//wefwef/wefew/ewfwefmfew;m
-			//
-			//
-
-
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
