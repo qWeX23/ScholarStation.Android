@@ -15,13 +15,20 @@ namespace ScholarStation
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
+			Login.RequestLogin ();
 
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.button1);
 			
 			button.Click += delegate {
+				
 				button.Text = string.Format ("{0} clicks!", count++);
+				;
+
+
+
+
 			};
 		}
 	}
