@@ -44,6 +44,45 @@ namespace ScholarStation
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f05000b
+			public const int StudentAge = 2131034123;
+			
+			// aapt resource value: 0x7f050008
+			public const int StudentEmail = 2131034120;
+			
+			// aapt resource value: 0x7f05000c
+			public const int StudentGender = 2131034124;
+			
+			// aapt resource value: 0x7f050009
+			public const int StudentMajor = 2131034121;
+			
+			// aapt resource value: 0x7f050007
+			public const int StudentName = 2131034119;
+			
+			// aapt resource value: 0x7f050005
+			public const int StudentPic = 2131034117;
+			
+			// aapt resource value: 0x7f05000a
+			public const int StudentYear = 2131034122;
+			
+			// aapt resource value: 0x7f050012
+			public const int TutorAge = 2131034130;
+			
+			// aapt resource value: 0x7f05000f
+			public const int TutorEmail = 2131034127;
+			
+			// aapt resource value: 0x7f050013
+			public const int TutorGender = 2131034131;
+			
+			// aapt resource value: 0x7f050010
+			public const int TutorMajor = 2131034128;
+			
+			// aapt resource value: 0x7f05000e
+			public const int TutorName = 2131034126;
+			
+			// aapt resource value: 0x7f050011
+			public const int TutorYear = 2131034129;
+			
 			// aapt resource value: 0x7f050004
 			public const int button1 = 2131034116;
 			
@@ -52,6 +91,12 @@ namespace ScholarStation
 			
 			// aapt resource value: 0x7f050003
 			public const int editText2 = 2131034115;
+			
+			// aapt resource value: 0x7f05000d
+			public const int imageView1 = 2131034125;
+			
+			// aapt resource value: 0x7f050006
+			public const int linearLayout1 = 2131034118;
 			
 			// aapt resource value: 0x7f050000
 			public const int textView1 = 2131034112;
@@ -77,6 +122,9 @@ namespace ScholarStation
 			
 			// aapt resource value: 0x7f030001
 			public const int StudentProfile = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int TutorProfile = 2130903042;
 			
 			static Layout()
 			{

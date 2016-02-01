@@ -5,13 +5,11 @@
     android:layout_height="match_parent">
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="88.0dp"
-        android:layout_height="74.0dp"
-        android:id="@+id/StudentPic" />
+        android:layout_width="85.5dp"
+        android:layout_height="76.5dp"
+        android:id="@+id/imageView1" />
     <LinearLayout
         android:orientation="vertical"
-        android:minWidth="25px"
-        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
@@ -19,33 +17,33 @@
             android:inputType="textPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StudentName"
+            android:id="@+id/TutorName"
             android:text="Name" />
         <EditText
             android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StudentEmail"
+            android:id="@+id/TutorEmail"
             android:text="Email" />
         <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StudentMajor"
+            android:id="@+id/TutorMajor"
             android:text="Major" />
         <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StudentYear"
+            android:id="@+id/TutorYear"
             android:text="Year" />
         <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StudentAge"
+            android:id="@+id/TutorAge"
             android:text="Age" />
         <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StudentGender"
+            android:id="@+id/TutorGender"
             android:text="Gender" />
     </LinearLayout>
 </LinearLayout>
