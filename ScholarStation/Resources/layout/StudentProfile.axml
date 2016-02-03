@@ -19,8 +19,14 @@
             android:inputType="textPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StudentName"
-            android:text="Name" />
+            android:id="@+id/StudentFName"
+            android:text="First Name" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/StudentLName"
+            android:text="Last Name" />
         <EditText
             android:inputType="textEmailAddress"
             android:layout_width="match_parent"
