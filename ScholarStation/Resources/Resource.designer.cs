@@ -44,6 +44,12 @@ namespace ScholarStation
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050004
+			public const int LoginButton = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int Password = 2131034115;
+			
 			// aapt resource value: 0x7f05000c
 			public const int StudentAge = 2131034124;
 			
@@ -89,14 +95,8 @@ namespace ScholarStation
 			// aapt resource value: 0x7f050013
 			public const int TutorYear = 2131034131;
 			
-			// aapt resource value: 0x7f050004
-			public const int button1 = 2131034116;
-			
 			// aapt resource value: 0x7f050001
-			public const int editText1 = 2131034113;
-			
-			// aapt resource value: 0x7f050003
-			public const int editText2 = 2131034115;
+			public const int UserName = 2131034113;
 			
 			// aapt resource value: 0x7f05000e
 			public const int imageView1 = 2131034126;
@@ -124,7 +124,7 @@ namespace ScholarStation
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Login = 2130903040;
 			
 			// aapt resource value: 0x7f030001
 			public const int StudentProfile = 2130903041;

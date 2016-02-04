@@ -12,7 +12,7 @@
         android:inputType="textPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText1" />
+        android:id="@+id/UserName" />
     <TextView
         android:text="Password:"
         android:layout_width="match_parent"
@@ -22,10 +22,10 @@
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2" />
+        android:id="@+id/Password" />
     <Button
-        android:text="Submit"
+        android:text="Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/LoginButton" />
 </LinearLayout>

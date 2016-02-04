@@ -7,29 +7,33 @@ namespace ScholarStation
 	public static class Login
 	{
 		
-		public static object RequestLogin(){
-			string url = "http://www.gooogle.com";
-			int port = 3000;
-
-			LoginRequest request = new LoginRequest ("BMP18", "password1");
-
-			var client = new RestClient (url);
+		public static object RequestLogin(string userName, string passWord){
+			var client = new RestClient("http://192.168.1.2/LoginApp");
 			var req = new RestRequest(Method.POST);
+			string user = userName;
+			string pass = passWord;
+			var loginObject = new LoginRequest {
+				username = user,
+				password = pass
+			};
 
-			req.AddObject (request);
-			client.Execute (req);
-			return new object ();
+			var json = req.JsonSerializer.Serialize (loginObject);
+			req.AddParameter("application/json; charset=utf-8", json, ParameterType.RequestBody);
+			IRestResponse response = client.Execute(req);
+
+			Console.WriteLine(response.Content);
+			//Console.ReadKey();
+
+			return response;
 		}
-
-		private class LoginRequest{
-			string User, Pass;
-			public LoginRequest(string User, string pass){
-				this.User=User;
-				this.Pass=pass;
-			}
-		}
-
-
+				private class LoginRequest{
+					public string username { get; set; }
+					public string password { get; set; }
+					public string RequestType { get; set; }
+				}
+	
 	}
+
 }
+
 
