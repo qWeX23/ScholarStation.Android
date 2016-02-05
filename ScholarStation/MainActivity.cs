@@ -2,6 +2,8 @@
 using Android.Widget;
 using Android.OS;
 using Android.Util;
+using System.Threading.Tasks;
+
 namespace ScholarStation
 {
 	[Activity (Label = "ScholarStation", MainLauncher = true, Icon = "@mipmap/icon")]
@@ -29,20 +31,25 @@ namespace ScholarStation
 			passWord.TextChanged += (object sender, Android.Text.TextChangedEventArgs e) => {
 				password = e.Text.ToString();
 			};
-			login.Click += delegate(object sender, System.EventArgs e) {
+
+			login.Click += async (sender, e) =>  {
 				//Error either here or with VM
 				try{
-				Login.RequestLogin (username, password);
+					var login_er =new Login();
+					Task<object> asdfg =  login_er.LoginAsync(username, password);
+
+					var result = await asdfg;
+					string tag = "FUCK";
+					Log.Info(tag, "STUFF WILL HAPPEN"+ result.ToString());
+
 				}
-				catch{
+				catch (AndroidException){
 					
 				}
 
 			};
-			string tag = "FUCK";
-			Log.Info(tag, "STUFF WILL HAPPEN");
-		}
 
+		}
 	}
 }
 
