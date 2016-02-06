@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Util;
 using System.Threading.Tasks;
+using Android.Content;
 
 namespace ScholarStation
 {
@@ -33,15 +34,24 @@ namespace ScholarStation
 			};
 
 			login.Click += async (sender, e) =>  {
-				//Error either here or with VM
+				
 				try{
 					var login_er =new Login();
-					Task<object> asdfg =  login_er.LoginAsync(username, password);
+					Task<LoginResponse> asdfg = login_er.LoginAsync(username, password);
 
-					var result = await asdfg;
-					string tag = "FUCK";
-					Log.Info(tag, "STUFF WILL HAPPEN"+ result.ToString());
+					LoginResponse result = await asdfg;
+					if(result.validate){
+						Intent intent = new Intent(this, typeof(HomeScreenActivity));
+						var b = new Bundle();
+						b.PutString("user",result.username);
+						b.PutString("key",result.KEY);
+						intent.PutExtras(b);
 
+						StartActivity(intent);
+					}else{
+						string tag = "FUCK";
+						Log.Info(tag, "STUFF WILL HAPPEN"+ result.ToString());
+					}
 				}
 				catch (AndroidException){
 					
