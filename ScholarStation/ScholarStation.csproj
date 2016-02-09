@@ -80,6 +80,7 @@
     <AndroidResource Include="Resources\layout\HomeScreen.axml" />
     <AndroidResource Include="Resources\layout\StartScreen.axml" />
     <AndroidResource Include="Resources\drawable\ximd90I.jpg" />
+    <AndroidResource Include="Resources\drawable\mriknow2.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
