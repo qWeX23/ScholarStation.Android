@@ -8,7 +8,8 @@ namespace ScholarStation
 {
 	public class LoginUtility
 	{
-		public async Task<LoginResponse> LoginAsync(string userName, string passWord){
+		public Task<LoginResponse> LoginAsync(string userName, string passWord){
+			return Task.Run (() => {
 			var client = new RestClient("http://70.187.52.39:3000/LoginApp");
 			var req = new RestRequest(Method.POST);
 			string user = userName;
@@ -30,6 +31,7 @@ namespace ScholarStation
 
 
 		}
+			);}
 		private class LoginRequest{
 			public string username { get; set; }
 			public string password { get; set; }
