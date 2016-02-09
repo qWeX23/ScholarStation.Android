@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ScholarStation
 {
-	public class Login
+	public class LoginUtility
 	{
 		public async Task<LoginResponse> LoginAsync(string userName, string passWord){
 			var client = new RestClient("http://70.187.52.39:3000/LoginApp");

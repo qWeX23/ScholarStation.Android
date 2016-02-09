@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Login.cs" />
     <Compile Include="LoginResponse.cs" />
     <Compile Include="HomeScreenActivity.cs" />
     <Compile Include="Profile.cs" />
@@ -60,6 +59,7 @@
     <Compile Include="StudentProfileActivity.cs" />
     <Compile Include="StartScreenActivity.cs" />
     <Compile Include="LoginActivity.cs" />
+    <Compile Include="LoginUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

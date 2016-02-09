@@ -8,7 +8,7 @@ using Android.Content;
 namespace ScholarStation
 {
 	[Activity (Label = "Log In")]	
-	public class MainActivity : Activity
+	public class LoginActivity : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
@@ -36,7 +36,7 @@ namespace ScholarStation
 			login.Click += async (sender, e) =>  {
 				
 				try{
-					var login_er =new Login();
+					var login_er =new LoginUtility();
 					Task<LoginResponse> asdfg = login_er.LoginAsync(username, password);
 
 					LoginResponse result = await asdfg;

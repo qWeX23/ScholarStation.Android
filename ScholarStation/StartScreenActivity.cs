@@ -25,7 +25,7 @@ namespace ScholarStation
 			var imageView = FindViewById<ImageView> (Resource.Id.imageView1);
 			imageView.SetImageResource (Resource.Drawable.mriknow2);
 			signIn.Click += delegate(object sender, EventArgs e) {
-				Intent intent = new Intent(this, typeof(MainActivity));
+				Intent intent = new Intent(this, typeof(LoginActivity));
 				StartActivity(intent);
 			};
 
