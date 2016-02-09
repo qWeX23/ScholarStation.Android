@@ -130,7 +130,10 @@ namespace ScholarStation
 			public const int Welcome = 2131099660;
 			
 			// aapt resource value: 0x7f060016
-			public const int imageView1 = 2131099670;
+			public const int editProfile = 2131099670;
+			
+			// aapt resource value: 0x7f06001e
+			public const int editTutorProfile = 2131099678;
 			
 			// aapt resource value: 0x7f060005
 			public const int linearLayout1 = 2131099653;
