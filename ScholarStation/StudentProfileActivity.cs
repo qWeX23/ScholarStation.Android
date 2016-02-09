@@ -27,6 +27,8 @@ namespace ScholarStation
 			TextView gender = FindViewById<TextView> (Resource.Id.StudentGender);
 			TextView age = FindViewById<TextView> (Resource.Id.StudentAge);
 			TextView year = FindViewById<TextView> (Resource.Id.StudentYear);
+			Button editProfile = FindViewById<Button> (Resource.Id.editProfile);
+
 
 			var fName= Intent.GetStringExtra("fname");
 			var lName = Intent.GetStringExtra("lname");
@@ -44,8 +46,10 @@ namespace ScholarStation
 			gender.Text = Sgender;
 			year.Text = Syear;
 			age.Text = Sage;
-
-
+			firstName.setKeyListener(null); 
+			editProfile.Click += delegate(object sender, EventArgs e) {
+				
+			};
 			// Create your application here
 		}
 	}
