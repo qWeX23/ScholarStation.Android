@@ -46,10 +46,7 @@ namespace ScholarStation
 			gender.Text = Sgender;
 			year.Text = Syear;
 			age.Text = Sage;
-			firstName.setKeyListener(null); 
-			editProfile.Click += delegate(object sender, EventArgs e) {
-				
-			};
+	
 			// Create your application here
 		}
 	}
