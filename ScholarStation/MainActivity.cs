@@ -7,7 +7,7 @@ using Android.Content;
 
 namespace ScholarStation
 {
-	[Activity (Label = "ScholarStation", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Log In")]	
 	public class MainActivity : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)
@@ -49,8 +49,13 @@ namespace ScholarStation
 
 						StartActivity(intent);
 					}else{
-						string tag = "FUCK";
-						Log.Info(tag, "STUFF WILL HAPPEN"+ result.ToString());
+						Android.App.AlertDialog.Builder builder = new AlertDialog.Builder(this);
+						AlertDialog alertDialog = builder.Create();
+						alertDialog.SetTitle("Login Failed");
+						alertDialog.SetMessage("Login Failed, Please Try Again");
+						alertDialog.Show();
+						//string tag = "FUCK";
+						//Log.Info(tag, "STUFF WILL HAPPEN"+ result.ToString());
 					}
 				}
 				catch (AndroidException){

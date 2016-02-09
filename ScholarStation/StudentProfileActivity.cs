@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace ScholarStation
 {
-	[Activity (Label = "StudentProfileActivity")]			
+	[Activity (Label = "Student Profile")]			
 	public class StudentProfile : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)

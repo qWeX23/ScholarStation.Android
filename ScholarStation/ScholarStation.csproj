@@ -59,6 +59,7 @@
     <Compile Include="Profile.cs" />
     <Compile Include="ProfileResponse.cs" />
     <Compile Include="StudentProfileActivity.cs" />
+    <Compile Include="StartScreenActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -77,6 +78,7 @@
     <AndroidResource Include="Resources\layout\TutorProfile.axml" />
     <AndroidResource Include="Resources\layout\Login.axml" />
     <AndroidResource Include="Resources\layout\HomeScreen.axml" />
+    <AndroidResource Include="Resources\layout\StartScreen.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace ScholarStation
 {
-	[Activity (Label = "HomeScreenActivity")]			
+	[Activity (Label = "Home Screen")]			
 	public class HomeScreenActivity : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)
