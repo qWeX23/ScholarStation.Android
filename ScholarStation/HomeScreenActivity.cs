@@ -32,7 +32,7 @@ namespace ScholarStation
 				
 			profile.Click += async (sender, e) => {
 
-				var Pgetter = new Profile();
+				var Pgetter = new ProfileUtility();
 				ProfileResponse result = await Pgetter.ProfileAsync(data);
 
 				Intent intent = new Intent(this, typeof(StudentProfile));

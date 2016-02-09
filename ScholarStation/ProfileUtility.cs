@@ -5,7 +5,7 @@ using Android.Util;
 using System.Threading.Tasks;
 namespace ScholarStation
 {
-	public class Profile
+	public class ProfileUtility
 	{
 		public async Task<ProfileResponse> ProfileAsync(LoginResponse data){
 				var client = new RestClient("http://70.187.52.39:3000/ProfileApp");
