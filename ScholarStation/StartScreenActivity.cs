@@ -22,7 +22,6 @@ namespace ScholarStation
 			SetContentView (Resource.Layout.StartScreen);
 			Button signIn = FindViewById<Button> (Resource.Id.SignIn);
 			Button signUp = FindViewById<Button> (Resource.Id.SignUp);
-
 			signIn.Click += delegate(object sender, EventArgs e) {
 				Intent intent = new Intent(this, typeof(MainActivity));
 				StartActivity(intent);
