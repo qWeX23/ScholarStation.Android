@@ -10,22 +10,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
-        <EditText
-            android:inputType="textPersonName"
+        <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/StudentFName"
             android:text="First Name"
             android:editable="false" />
-        <EditText
-            android:inputType="textPersonName"
+        <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/StudentLName"
             android:text="Last Name"
             android:editable="false" />
-        <EditText
-            android:inputType="textEmailAddress"
+        <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/StudentEmail"

@@ -75,53 +75,53 @@ namespace ScholarStation
 			// aapt resource value: 0x7f060006
 			public const int ProfileButton = 2131099654;
 			
-			// aapt resource value: 0x7f06000d
-			public const int SignIn = 2131099661;
-			
 			// aapt resource value: 0x7f06000e
-			public const int SignUp = 2131099662;
-			
-			// aapt resource value: 0x7f060014
-			public const int StudentAge = 2131099668;
-			
-			// aapt resource value: 0x7f060011
-			public const int StudentEmail = 2131099665;
+			public const int SignIn = 2131099662;
 			
 			// aapt resource value: 0x7f06000f
-			public const int StudentFName = 2131099663;
+			public const int SignUp = 2131099663;
 			
 			// aapt resource value: 0x7f060015
-			public const int StudentGender = 2131099669;
-			
-			// aapt resource value: 0x7f060010
-			public const int StudentLName = 2131099664;
+			public const int StudentAge = 2131099669;
 			
 			// aapt resource value: 0x7f060012
-			public const int StudentMajor = 2131099666;
+			public const int StudentEmail = 2131099666;
+			
+			// aapt resource value: 0x7f060010
+			public const int StudentFName = 2131099664;
+			
+			// aapt resource value: 0x7f060016
+			public const int StudentGender = 2131099670;
+			
+			// aapt resource value: 0x7f060011
+			public const int StudentLName = 2131099665;
 			
 			// aapt resource value: 0x7f060013
-			public const int StudentYear = 2131099667;
+			public const int StudentMajor = 2131099667;
 			
-			// aapt resource value: 0x7f06001c
-			public const int TutorAge = 2131099676;
-			
-			// aapt resource value: 0x7f060019
-			public const int TutorEmail = 2131099673;
-			
-			// aapt resource value: 0x7f060017
-			public const int TutorFName = 2131099671;
+			// aapt resource value: 0x7f060014
+			public const int StudentYear = 2131099668;
 			
 			// aapt resource value: 0x7f06001d
-			public const int TutorGender = 2131099677;
-			
-			// aapt resource value: 0x7f060018
-			public const int TutorLName = 2131099672;
+			public const int TutorAge = 2131099677;
 			
 			// aapt resource value: 0x7f06001a
-			public const int TutorMajor = 2131099674;
+			public const int TutorEmail = 2131099674;
+			
+			// aapt resource value: 0x7f060018
+			public const int TutorFName = 2131099672;
+			
+			// aapt resource value: 0x7f06001e
+			public const int TutorGender = 2131099678;
+			
+			// aapt resource value: 0x7f060019
+			public const int TutorLName = 2131099673;
 			
 			// aapt resource value: 0x7f06001b
-			public const int TutorYear = 2131099675;
+			public const int TutorMajor = 2131099675;
+			
+			// aapt resource value: 0x7f06001c
+			public const int TutorYear = 2131099676;
 			
 			// aapt resource value: 0x7f060008
 			public const int UserName = 2131099656;
@@ -129,11 +129,14 @@ namespace ScholarStation
 			// aapt resource value: 0x7f06000c
 			public const int Welcome = 2131099660;
 			
-			// aapt resource value: 0x7f060016
-			public const int editProfile = 2131099670;
+			// aapt resource value: 0x7f060017
+			public const int editProfile = 2131099671;
 			
-			// aapt resource value: 0x7f06001e
-			public const int editTutorProfile = 2131099678;
+			// aapt resource value: 0x7f06001f
+			public const int editTutorProfile = 2131099679;
+			
+			// aapt resource value: 0x7f06000d
+			public const int imageView1 = 2131099661;
 			
 			// aapt resource value: 0x7f060005
 			public const int linearLayout1 = 2131099653;
