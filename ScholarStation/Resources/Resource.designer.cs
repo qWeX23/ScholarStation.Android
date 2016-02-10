@@ -216,21 +216,6 @@ namespace ScholarStation
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050004
-			public const int Json_Param = 2131034116;
-			
-			// aapt resource value: 0x7f050005
-			public const int LoginResponse = 2131034117;
-			
-			// aapt resource value: 0x7f050002
-			public const int Login_IP = 2131034114;
-			
-			// aapt resource value: 0x7f050006
-			public const int ProfileResponse = 2131034118;
-			
-			// aapt resource value: 0x7f050003
-			public const int Profile_IP = 2131034115;
-			
 			// aapt resource value: 0x7f050001
 			public const int app_name = 2131034113;
 			
