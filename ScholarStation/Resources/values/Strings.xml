@@ -2,4 +2,9 @@
 <resources>
 	<string name="hello">Submit</string>
 	<string name="app_name">ScholarStation</string>
+	<string name="Login_IP">http://70.187.52.39:3000/LoginApp</string>
+	<string name="Profile_IP">http://70.187.52.39:3000/ProfileApp</string>
+	<string name="Json_Param">application/json; charset=utf-8</string>
+	<string name="LoginResponse">[LoginResponse: key={0}, user={1}, validate={2}]</string>
+	<string name="ProfileResponse">[ProfileResponse: fname={0}, lname={1}, major={2}, email={3}, gender={4}, year={5}, age={6}]</string>
 </resources>

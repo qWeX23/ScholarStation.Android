@@ -14,7 +14,7 @@ namespace ScholarStation
 
 		public override string ToString ()
 		{
-			return string.Format ("[ProfileResponse: fname={0}, lname={1}, major={2}, email={3}, gender={4}, year={5}, age={6}]", fname, lname, major, email, gender, year, age);
+			return string.Format ("@string/ProfileResponse", fname, lname, major, email, gender, year, age);
 		}
 
 

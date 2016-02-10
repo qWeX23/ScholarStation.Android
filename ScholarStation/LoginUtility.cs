@@ -10,7 +10,7 @@ namespace ScholarStation
 	{
 		public Task<LoginResponse> LoginAsync(string userName, string passWord){
 			return Task.Run (() => {
-			var client = new RestClient("http://70.187.52.39:3000/LoginApp");
+			var client = new RestClient("@string/Login_IP");
 			var req = new RestRequest(Method.POST);
 			string user = userName;
 			string pass = passWord;
@@ -20,7 +20,7 @@ namespace ScholarStation
 			};
 
 			var json = req.JsonSerializer.Serialize(loginObject);
-			req.AddParameter("application/json; charset=utf-8", json, ParameterType.RequestBody);
+			req.AddParameter("@string/Json_Param", json, ParameterType.RequestBody);
 			Console.WriteLine ("HELLLOOOO!>>?????");
 			var returnStuff =  client.Execute(req);
 			LoginResponse info = JsonConvert.DeserializeObject<LoginResponse> (returnStuff.Content);

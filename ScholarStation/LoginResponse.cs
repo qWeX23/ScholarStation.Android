@@ -18,7 +18,7 @@ namespace ScholarStation
 			public bool validate { get; set; }
 		public override string ToString ()
 		{
-			return string.Format ("[LoginResponse: key={0}, user={1}, validate={2}]", KEY, username, validate);
+			return string.Format ("@string/LoginResponse", KEY, username, validate);
 		}
 	
 	}
